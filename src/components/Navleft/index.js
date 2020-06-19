@@ -26,7 +26,7 @@ export default class NavLeft extends Component{
         return(
             <div>
                 <div className="logo">
-                    <img src={logo}></img>
+                    <img src={logo} alt="description of svg"></img>
                     <h1>Imoc MS</h1>
                 </div>
                 <Menu theme="dark">
