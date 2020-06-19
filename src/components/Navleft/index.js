@@ -5,7 +5,7 @@ import MenuConfig from '../../config/menuConfig';
 import { Menu } from 'antd';
 const { SubMenu } =Menu;
 export default class NavLeft extends Component{
-    componentWillMount(){
+    UNSAFE_componentWillMount(){
       const menuTreeNode =  this.renderMenu(MenuConfig);
       this.setState({menuTreeNode});
     }

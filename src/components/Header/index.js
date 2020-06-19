@@ -4,7 +4,7 @@ import './index.less'
 import util from '../../util'
 export default class Header extends Component{
     state = {}
-    componentWillMount(){
+        NSAFE_componentWillMount(){
         this.setState({
             userName:"河畔一角"
         })
