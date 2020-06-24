@@ -1,4 +1,5 @@
 .header{
+    background-color: #ffffff;
     .header-top{
         text-align: right;
         height: 60px;
@@ -15,6 +16,17 @@
         border-top: 1px solid #f9c700;
         .breadcrumb-title{
             text-align: center;
+            font-size: 18px;
+            &:after{
+                // 且字符声明伪类
+                position: absolute;
+                content: '';
+                left: 120px;
+                top: 39px;
+                border-top: 9px solid #ffffff;
+                border-left: 12px solid transparent;
+                border-right: 12px solid transparent;
+            }
         }
         .weather{
             text-align: right;
